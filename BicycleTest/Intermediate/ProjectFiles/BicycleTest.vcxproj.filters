@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BicycleTest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1D5FE6CF-5E08-4C5F-BFEA-84E97017A475}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BicycleTest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BicycleTestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DB9296F6-C095-4532-B442-BBE084F7DFBE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BicycleTest">
+      <UniqueIdentifier>{868ABE0F-0009-41EE-9394-3DF2CE4156AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BicycleTest\BicycleTest.Build.cs">
+      <Filter>Source\BicycleTest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BicycleTest\BicycleTest.cpp">
+      <Filter>Source\BicycleTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BicycleTest\BicycleTest.h">
+      <Filter>Source\BicycleTest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BicycleTest\BicycleTestGameModeBase.cpp">
+      <Filter>Source\BicycleTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BicycleTest\BicycleTestGameModeBase.h">
+      <Filter>Source\BicycleTest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BicycleTest\FileParser.cpp">
+      <Filter>Source\BicycleTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BicycleTest\FileParser.h">
+      <Filter>Source\BicycleTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
